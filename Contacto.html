@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contáctanos</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="CSS/Style.css">
+</head>
+
+<body>
+
+   <!--Menú-->
+   <nav class="navbar navbar-expand-sm navbar-light bg-info">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+            <img src="img/Logo.png" alt="" width="36" height="30" class="d-inline-block align-text-center">
+            UrbanHuerto
+      </a>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="items" class="nav-link active" aria-current="page" href="Index.html">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="items" class="nav-link" href="TuHuertoCasa.html">¡Haz tu propio huerto!</a>
+          </li>
+          <li class="nav-item">
+            <a class="items" class="nav-link" href="MantenimientoHuerto.html">Cómo mantener tu huerto</a>
+          </li>
+          <li class="nav-item">
+            <a class="items" class="nav-link" href="Beneficios.html">Beneficios de Cultivar en Casa</a>
+          </li>
+          <li class="nav-item">
+            <a class="items" class="nav-link" href="AlimentosCultivar.html">Alimentos que puedes cultivar</a>
+          </li>
+          <li class="nav-item">
+            <a class="items" class="nav-link" href="Tips.html">Tips</a>
+          </li>
+          <li class="nav-item">
+            <a class="items" class="nav-link" href="Contacto.html">Contáctenos</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  
+    <header>
+        <h1>Contáctenos</h1>
+    </header>
+
+    <form action="" method="post" enctype="multipart/form-data">
+        <label for="">Nombre:</label>
+        <input type="text" required name="Nombre" placeholder="Ingrese su nombre"><br>
+
+        <label for="">Apellido:</label>
+        <input type="text" required name="Apellido" placeholder="Ingrese su apellido"><br>
+
+        <label for="">Edad:</label>
+        <input type="number" required name="Edad" placeholder="Ingrese su edad"><br>
+
+        <label for="">Género</label>
+        <select name="Genero" id="">
+            <option value="1">Mujer</option>
+            <option value="2">Hombre</option>
+        </select><br>
+
+        <label for="">Mensaje:</label>
+        <textarea style="resize: none;" name="Mensaje" id="" cols="20" rows="7"></textarea><br>
+
+        <label for="">Hoja de vida:</label>
+        <input type="file" name="Hojadevida"><br>
+
+        <input type="submit" value="Enviar">
+
+    </form>
+
+    <a href="Index.html">Volver a la página principal</a>
+
+</body>
+</html>
